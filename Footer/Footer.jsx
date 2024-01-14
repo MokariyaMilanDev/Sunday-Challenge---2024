@@ -1,4 +1,4 @@
-// This is my practice mini project of create component 
+// this is only practice component 😎 
 import React from 'react';
 import { Link } from 'react-router-dom';
 
