@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  padding: 0.5rem;
+}
+
+.calender{
+  box-shadow: 0px 0px 2px 0.1px;
+  border-radius: 3px;
+  padding: 1rem;
+  min-width: 350px;
+}
+
+.cal-date-info{
+  margin: 0.6rem 0rem 1.5rem 0.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.cal-date-info img{
+  width: 3rem;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.cal-days-name{
+  margin: 10px 0px;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(7, 1fr);
+}
+.cal-days-name p{
+  margin: auto;
+}
+
+.cal-days-info{
+  margin: 10px 0px;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(7, 1fr);
+}
+.cal-days-info div{
+  margin: auto;
+}
+.cal-days-info .div{
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.3rem;
+  background: black;
+  color: white;
+}
+
+@media only screen and (min-width: 450px) {
+  .calender{
+    margin-inline: calc((100vw - 450px)/2);
+    margin-block: 2rem;
+  }
+}
+
+
