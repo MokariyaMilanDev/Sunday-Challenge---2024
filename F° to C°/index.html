@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <title>F° to C°</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <main>
+      <h1>Calculate</h1>
+      <div class="container">
+         <div class="input-div">
+            <div>
+               <label for="from_input">Celcius (C°)</label>
+               <input type="number" 
+                      id="from_input" 
+                      placeholder="0"
+                      oninput="changeInput(this)">
+            </div>
+            <div>
+               <label for="to_input">Fahrenheit (F°)</label>
+               <input type="text" 
+                      id="to_input" 
+                      value="0"
+                      disabled="true">
+            </div>
+         </div>
+         <div class="button-div">
+            <button disabled>C°</button>
+            <div class="middle" onclick="changeConverter(this)">=</div>
+            <button disabled>F°</button>
+         </div>
+      </div>
+   </main>
+
+   <script src="main.js"></script>
+</body>
+</html>
