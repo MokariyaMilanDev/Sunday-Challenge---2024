@@ -22,3 +22,6 @@
 <img src="./assets/(7)-18th-Feb-2024-Clock.png" width="40%">
 
 <h3> (8) 25th Feb, 2024 - Stopwatch (HTML, CSS, Javascript)</h3>
+<img src="./assets/(8)-25th-Feb-2024-stopWatch.png" width="40%">
+
+<h3> (9) 03th March, 2024 - Background changer (react.js)</h3>
