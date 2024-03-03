@@ -25,3 +25,7 @@
 <img src="./assets/(8)-25th-Feb-2024-stopWatch.png" width="40%">
 
 <h3> (9) 03th March, 2024 - Background changer (react.js)</h3>
+<img src="./assets/(9)-03th-March-2024-background-changer.png" width="60%">
+
+<h3> (10) 10th March, 2024 - Searching Component (react.js) </h3>
+
