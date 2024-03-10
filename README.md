@@ -27,5 +27,7 @@
 <h3> (9) 03th March, 2024 - Background changer (react.js)</h3>
 <img src="./assets/(9)-03th-March-2024-background-changer.png" width="60%">
 
-<h3> (10) 10th March, 2024 - Searching Component (react.js) </h3>
+<h3> (10) 10th Mar, 2024 - Searching Component (react.js) </h3>
+<img src="./assets/(10)-10th-Mar-2024-searching-component.png" width="60%">
 
+<h3> (11) 18th Mar, 2024 - Counter (react.js) </h3>
