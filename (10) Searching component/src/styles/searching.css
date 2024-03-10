@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: dark;
+}
+
+.--searching-main {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.--searching-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.--searching-input section {
+  width: calc(100vw - 10vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.--searching-input input {
+  padding: 0.2rem;
+  width: 100%;
+  outline: none;
+}
+
+.--searching-input img {
+  height: 1.8rem;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 2px;
+}
+.--searching-input img:hover{
+  background-color: rgb(60,60,60);
+}
+
+/* div  */
+.--searching-filter{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
+/* section */
+.--searching-filter section{
+  width: calc(100vw - 10vw);
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+/* section > heading */
+.--filter-heading{
+  margin: 10px;
+  font-weight: 700;
+}
+/* sectionn > ul */ 
+.--filter-options{
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+}
+/* section > ul > li */
+.--filter-option{
+
+}
+/* section > ul > li > h6 */
+.--iteams-heading{
+  padding: 5px;
+  background-color: rgb(40, 40, 40);
+}
+/* section > ul > li > div */
+.--filter-iteams{
+  padding: 2px 2px;
+  display: grid;
+  gap: 0.2rem;
+}
+/* section > ul > li > div > div */
+.--filter-iteam{
+  display : flex;
+  gap: 0.3rem;
+  align-items: center;
+  padding: 0px 5px;
+}
+.--filter-iteam:hover{
+  background-color: rgb(35, 35, 35);
+}
+/* section > ul > li > div > div > checkbox */
+.--filter-iteam input{
+
+}
+/* section > ul > li > div > p */
+.--filter-iteam p{
+  
+}
+
+
+
+@media only screen and (min-width: 760px){
+  .--searching-input section{
+    width: calc(100vw - 40vw);
+  }
+  .--searching-filter section{
+    width: calc(100vw - 40vw);
+  }
+  .--filter-options{
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+}
+
+
