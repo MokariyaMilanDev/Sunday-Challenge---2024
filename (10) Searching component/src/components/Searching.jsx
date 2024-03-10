@@ -1,6 +1,6 @@
 import { useState } from "react";
-import iconFilter from "../assets/filter.svg";
-import iconCancel from "../assets/minus.svg";
+import iconFilter from "../images/filter.svg";
+import iconCancel from "../images/minus.svg";
 import "../styles/searching.css";
 
 const filterIteams = [
@@ -104,9 +104,3 @@ const Searching = () => {
 };
 
 export default Searching;
-
-// {mainField:"Colour", ooptions: []}
-// {mainField:"Fonts", options: []}
-// color > colour
-// font > fonts
-// icon > icons
