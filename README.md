@@ -31,3 +31,6 @@
 <img src="./assets/(10)-10th-Mar-2024-searching-component.png" width="60%">
 
 <h3> (11) 17th Mar, 2024 - Counter (react.js) </h3>
+<img src="./assets/(11)-17th-Mar-2024-Counter-component.png" width="30%">
+
+<h3> (12) 24th Mar, 2024 - Music component (react.js) </h3>
